@@ -121,6 +121,8 @@ section{
     font-family: 'Raleway', sans-serif;
     padding: 15px 80px;
     z-index: 1;
+    display: flex;
+    align-items: center;
 }
 
 section h1{
@@ -195,9 +197,7 @@ section.three {
     color: #D77A61;
 
 }
-.three h1{
-    padding-top:30px;
-}
+
 .three a {
     color: #DBD3D8;
     overflow: hidden;
@@ -420,10 +420,7 @@ section.ten {
     background: #023436;
     color: #EBF5EE;
 }
-.ten h1{
-    padding-top: 30px;
 
-}
 section.ten a {
     color:#022628;
     font-weight: 700;
@@ -656,9 +653,7 @@ section.the15 a {
     /* border-bottom: 2px solid #F2E6EA; */
 
 }
-.the15 h1{
-    padding-top: 45px;
-}
+
 .the15 a:before{
     content: "";
     top:0; left: 0;
@@ -708,9 +703,7 @@ section.the16 a {
     overflow: hidden;
     transition: all 0.3s ease 0.5s;
 }
-.the16 h1{
-    padding-top: 45px;
-}
+
 .the16 a:before{
     content: "";
     top:0; left: 0;
@@ -761,9 +754,7 @@ section.the17 a {
     border: 2px solid #E9F1F7;
 
 }
-.the17 h1{
-    padding-top: 45px;
-}
+
 .the17 a:before{
     content: "";
     top:0; left: 0; bottom: 0; right: 0;
@@ -820,9 +811,7 @@ section.the18 a {
     border: 2px solid #1B1A25;
 
 }
-.the18 h1{
-    padding-top: 45px;
-}
+
 .the18 a:before{
     content: "";
     top:0; left: 0; bottom: 0; right: 0;
@@ -878,9 +867,7 @@ section.the19 a {
     transition: color 0.33s ease;
 
 }
-.the19 h1{
-    padding-top: 45px;
-}
+
 .the19 a:before{
     content: "";
     top:0; left: 0; bottom: 0; right: 0;
@@ -930,9 +917,8 @@ section.the20 a {
     transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 
 }
-.the20 h1{
-    padding-top: 45px;
-}
+
+
 
 
 .the20 a:hover{
@@ -972,9 +958,7 @@ section.updateStyle a {
     overflow: hidden;
 
 }
-.updateStyle h1 {
-    padding-top: 45px;
-}
+
 .updateStyle a:before{
     content: "";
     top:0; left: 0; bottom: 0; right: 0;
